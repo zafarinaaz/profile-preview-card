@@ -61,10 +61,11 @@
         font-weight: 400;
         font-size: medium;
         font-family: 'tahoma';
+        padding-left: 10px;
       }
       .add{
-        font-size: small;
-        letter-spacing: 2.5px;
+        font-size: medium;
+        
       }
       .numbers{
         display: flex;
@@ -76,8 +77,6 @@
         letter-spacing: 2.5px;
       }
         
-        
-      }
       .numbers .item{
         font-weight: 400;
         
@@ -91,14 +90,20 @@
         letter-spacing: normal;
       }
 
-      @media only screen and (max-width: 600px) {
+      @media only screen and (max-width: 375px) {
       body{
-        background-position: -650px -700px, 200px 275px;
+         background-position: -650px -700px, 125px 300px;
       }
-        
+      .profile-card{
+        margin: auto 25px;
+        height: auto;
+      } 
+      .numbers{
+        margin-top:20px ;
+        padding-bottom: 20px;
       }
       
-      
+    } 
     </style>
   </head>
   <body>
@@ -110,7 +115,7 @@
         </div>
       </div>
       <div class="card-items">
-        <div class="nama">Victor Crest <span>26</span></div>
+        <div class="nama">Victor Crest  <span>26</span></div>
         <div class="add">  London</div>
       </div>
       <div class="card-footer">
